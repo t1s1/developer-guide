@@ -1,0 +1,4 @@
+= Asciidoc quick reference guide 
+
+This section serves as a quick reference for commonly used AsciiDoc syntax, helpful for developing content with Red Hat QuickCourse. Use it as a convenient guide to copy and apply AsciiDoc formatting in your content.
+

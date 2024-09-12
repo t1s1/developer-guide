@@ -1,27 +1,18 @@
-= An Example Quick Course
+= Red Hat Quick Course Development Guide
 :navtitle: Home
 
 == Introduction
 
-Course Title: Course title FIXME
+This comprehensive guide serves as a reference for anyone looking to contribute to the development of Red Hat QuickCourse. Red Hat QuickCourse is a template-based framework for creating hands-on technical training and lab development.
 
-Description:
-Course description FIXME
+Please note, this is not a prerequisite training for contributing to QuickCourse. Instead, use it as a reference, consulting relevant sections as needed throughout your content development journey with us.
 
-Duration: FIXME hours
+== Topics covered
+This course builder guide for Red Hat QuickCourse covers the following topics:
 
-== Objectives
-
-On completing this course, you should be able to:
-
-* Observable, measurable objective...
-* Observable, measurable objective...
-* Observable, measurable objective...
-
-== Prerequisites
-
-This course assumes that you have the following prior experience:
-
-* Course or experience...
-* Course or experience...
-* Course or experience...
+* QuickCourse Content Contributor Guide for local development
+* QuickCourse Content Contributor Guide for development using DevSpace
+* Asciidoc Quick Reference Guide for content development
+* Hands-on Lab Development Guide for QuickCourse on the Demo Platform
+* Hands-on Lab Development Guide for QuickCourse on the ROLE Platform
+* Open Training Creation Initiative

@@ -1,3 +1,9 @@
 = Appendix
 
 FIXME: Content for Appendix...
+
+- https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation,window=_blank]
+
+- https://docs.antora.org/antora/latest/[Antora Documentation,window=_blank]
+
+- https://github.com/RedHatQuickCourses/course-starter-template[RedHatQuickCourses course-starter-template,window=_blank]

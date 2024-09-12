@@ -1,0 +1,3 @@
+= Identify lab template
+
+FIXME: Instructions for identifying suitable lab template on Demo or ROLE platform

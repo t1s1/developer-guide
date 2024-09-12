@@ -3,7 +3,10 @@ title: Red Hat QuickCourse Developer Guide
 version: 1
 nav:
 - modules/ROOT/nav.adoc
-- modules/chapter1/nav.adoc
-- modules/chapter2/nav.adoc
-- modules/chapter3/nav.adoc
+- modules/local/nav.adoc
+- modules/devspace/nav.adoc
+- modules/asciidoc/nav.adoc
+- modules/demolab/nav.adoc
+- modules/rolelab/nav.adoc
+- modules/opentraining/nav.adoc
 - modules/appendix/nav.adoc

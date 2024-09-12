@@ -1,0 +1,7 @@
+= QuickCourse Contributor Guide (local)
+
+This section contains instructions on how to create and publish quick courses.
+
+Use the instructions in this section if you plan to develop content on your local system. For a simpler content development experience, you may opt to use our DevSpace tool.
+
+NOTE: You can skip this section if you are using DevSpace for content development.
