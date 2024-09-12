@@ -1,6 +1,6 @@
 site:
-  title: FIXME Course Title
-  start_page: REPLACEREPONAME::index.adoc
+  title: Red Hat QuickCourse Developer Guide
+  start_page: developer-guide::index.adoc
 
 content:
   sources:

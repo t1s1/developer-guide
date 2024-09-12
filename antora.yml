@@ -1,9 +1,8 @@
-name: REPLACEREPONAME
-title: FIXME Course Title
+name: developer-guide
+title: Red Hat QuickCourse Developer Guide
 version: 1
 nav:
 - modules/ROOT/nav.adoc
-- modules/LABENV/nav.adoc
 - modules/chapter1/nav.adoc
 - modules/chapter2/nav.adoc
 - modules/chapter3/nav.adoc
