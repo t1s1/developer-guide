@@ -27,11 +27,3 @@ Add the text with gap of a line for new paragraph.
 You may also use hard line breaks like this +
 for new line in single paragraph.
 ----
-
-Example use of hyperlink to external website with https://docs.asciidoctor.org/asciidoc/latest/[click here,window=_blank] option.
-
-.Syntax:
-[source]
-----
-Example use of hyperlink to external website with https://docs.asciidoctor.org/asciidoc/latest/[click here,window=_blank] option.
-----

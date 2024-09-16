@@ -10,9 +10,9 @@ Please note, this is not a prerequisite training for contributing to QuickCourse
 == Topics covered
 This course builder guide for Red Hat QuickCourse covers the following topics:
 
+* Open Training Creation Initiative
 * QuickCourse Content Contributor Guide for local development
 * QuickCourse Content Contributor Guide for development using DevSpace
 * Asciidoc Quick Reference Guide for content development
 * Hands-on Lab Development Guide for QuickCourse on the Demo Platform
 * Hands-on Lab Development Guide for QuickCourse on the ROLE Platform
-* Open Training Creation Initiative
