@@ -1,0 +1,4 @@
+= RHDP (skip if using ROLE)
+
+FIXME: Instructions for using RHDP lab environment.
+

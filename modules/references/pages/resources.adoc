@@ -1,6 +1,4 @@
-= Appendix
-
-FIXME: Content for Appendix...
+= Resources
 
 - https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc Language Documentation,window=_blank]
 

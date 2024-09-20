@@ -1,5 +1,5 @@
 site:
-  title: Red Hat QuickCourse Developer Guide
+  title: Red Hat Open Training Developer Guide
   start_page: developer-guide::index.adoc
 
 content:

@@ -1,0 +1,5 @@
+= Setup local system (skip if using devspace)
+
+FIXME: Instructions for setting up local system for content development.
+
+See xref:section3.adoc[Quick course content format guide] to know about formatting your content's layout

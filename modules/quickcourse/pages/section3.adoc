@@ -1,0 +1,6 @@
+= Quick course content format guide
+
+FIXME: Add instructions for formatting content using Chapters and Sections with antora.yml and nav.adoc
+
+See xref:references:asciidocqrg.adoc[Asciidoc quick reference guide] for help with drafting of your content.
+

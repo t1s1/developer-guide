@@ -1,0 +1,5 @@
+= Use Devspace (skip if using local system)
+
+FIXME: Instructions for using Devspace development environment for content development.
+
+See xref:section3.adoc[Quick course content format guide] to know about formatting your content's layout

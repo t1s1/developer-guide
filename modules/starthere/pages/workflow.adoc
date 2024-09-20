@@ -1,0 +1,16 @@
+= Get started
+
+. xref:references:glossary.adoc[Identify training type (know-it, how-to, break-fix)]
+. Identify lab template on the xref:references:glossary.adoc[RHDP or ROLE,window=_blank] platform for how-to and break-fix type content.
+. Submit a https://docs.google.com/forms/d/e/1FAIpQLSepUaRiRdyA3PEzLP8w59reAsKRe19dL3ewpJGvJ7Gbggt-xg/viewform[Request form,window=_blank] for type *Open Training*
+. Training team will get in touch with you.
+
+**What will be the next steps?**
+
+* Develop training and lab
+* Quality check and Publish
+
+
+NOTE: You may track or update your request https://issues.redhat.com/secure/RapidBoard.jspa?rapidView=20243[here,window=_blank]
+
+

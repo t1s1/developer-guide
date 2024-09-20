@@ -1,13 +1,9 @@
 name: developer-guide
-title: Red Hat QuickCourse Developer Guide
+title: Red Hat Open Training Developer Guide
 version: 1
 nav:
 - modules/ROOT/nav.adoc
-- modules/terminologies/nav.adoc
-- modules/opentraining/nav.adoc
-- modules/local/nav.adoc
-- modules/devspace/nav.adoc
-- modules/asciidoc/nav.adoc
-- modules/demolab/nav.adoc
-- modules/rolelab/nav.adoc
-- modules/appendix/nav.adoc
+- modules/starthere/nav.adoc
+- modules/quickcourse/nav.adoc
+- modules/lab/nav.adoc
+- modules/references/nav.adoc

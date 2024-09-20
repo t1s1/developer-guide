@@ -1,0 +1,49 @@
+# Frequently Asked Questions
+:toc:
+
+== Where should I identify the training requirements from?
+
+The training you wish to contribute could originate from several sources:
+
+* You may identify a knowledge gap based on your own experience.
+
+* You might notice a gap within your team that you want to address through training.
+
+* You may receive a request from another team, partner, or customer for specific training.
+
+* Optionally, you could find a training topic in our backlog (FIXME link) that interests you and would like to contribute to. (FIXME: do we need this option?)
+
+== What lab infrastructure is being used for hands-on based trainings?
+
+As of now we have two options for hands-on labs offerings, xref:references:glossary.adoc[RHDP and ROLE,window=_blank].
+
+== How do I decide which hands-on lab infrastructure I should prefer for my requirement?
+
+Our primary platform for hands-on lab offering is RHDP. You should search for the suitable catalog on it. 
+
+== When should I consider to use ROLE lab?
+
+If the content you are writing is supplementing any of our certification courses or if you think it suites well to be part of it, you may consider developing your lab on ROLE infrastructure.
+
+
+== What are the advantages of using RHDP lab platform?
+
+RHDP labs supports varity of options for hands-on lab infrastructure. 
+For example, cloud infrastructure like: AWS, Azure, GCP 
+Openshift virtualization, baremetal provisioning, etc.
+Additionally the hands-on labs created on RHDP platform can be easily shared with our partners and customers. The labs on this infrastructure are built using an opensource AgnosticD project, hence anybody not having access to our lab infrastructure but willing to try our labs can experiment with the playbooks in AgnosticD to implement the lab in one's own infrastructure.
+
+== What are the advantages of using ROLE lab platform?
+
+Labs on ROLE platform are usually frozen where-as RHDP catalogs are deployed on the fly.
+Hence ROLE labs may start quicker compared to RHDP labs. 
+However startup time for the lab should not be your deciding criteria. You may select ROLE lab if your content is going to complement any of our certification courses.
+
+== I would like to have a few additional resources in an existing catalog to make it suitable for my needs. Is that possible?
+
+Yes, we should be able to help you with creation of copy of the existing catalog and providing the additional resources in it which could be in the form of additional computing power or disk to existing VMs or any additional VMs, etc.
+
+== I am working on a training for very new product offering and I do not see required lab for it.
+
+You may work with us to create the new lab environment for your needs.
+
