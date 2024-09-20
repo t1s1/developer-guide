@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Asciidoc quick reference guide :: Red Hat Open Training Developer Guide</title>
+    <link rel="prev" href="glossary.html">
+    <link rel="next" href="faq.html">
+    <meta name="generator" content="Antora 3.1.3">
+    <link rel="stylesheet" href="../../../_/css/site.css">
+    <script>var uiRootPath = '../../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.redhat.com" target="_blank"><img src="../../../_/img/redhat-logo.png" height="40px" alt="Red Hat"></a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="../../..">Red Hat Open Training Developer Guide</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://github.com/RedHatQuickCourses/developer-guide/issues" target="_blank">Report Issues</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="developer-guide" data-version="1">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="../index.html">Red Hat Open Training Developer Guide</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../starthere/workflow.html">Get started</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../quickcourse/index.html">QuickCourse Contributor Guide</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../quickcourse/section1.html">Use Devspace (skip if using local system)</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../quickcourse/section2.html">Setup local system (skip if using devspace)</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../quickcourse/section3.html">Quick course content format guide</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../lab/index.html">Lab infrastructure guide</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../lab/section1.html">RHDP (skip if using ROLE)</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../lab/section2.html">ROLE (skip if using RHDP)</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../lab/section3.html">Additional section</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="index.html">References</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="glossary.html">Glossary</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="2">
+    <a class="nav-link" href="asciidocqrg.html">Asciidoc quick reference guide</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="faq.html">Frequently Asked Questions</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="resources.html">Resources</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Red Hat Open Training Developer Guide</span>
+    <span class="version">1</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="../index.html">Red Hat Open Training Developer Guide</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="../index.html">1</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Red Hat Open Training Developer Guide</a></li>
+    <li><a href="index.html">References</a></li>
+    <li><a href="asciidocqrg.html">Asciidoc quick reference guide</a></li>
+  </ul>
+</nav>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Asciidoc quick reference guide</h1>
+<div class="sect1">
+<h2 id="_headings"><a class="anchor" href="#_headings"></a>HEADINGS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Refer the the heading of this page for the example of the <strong>top level heading</strong>. This is referenced for navigation (previous/next) of the pages in rendered training content.</p>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">= This is top level heading</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_this_is_second_level_heading"><a class="anchor" href="#_this_is_second_level_heading"></a>This is Second level heading</h2>
+<div class="sectionbody">
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">== This is Second level heading</code></pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_this_is_third_level_heading"><a class="anchor" href="#_this_is_third_level_heading"></a>This is Third level heading</h3>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">=== This is Third level heading</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_text"><a class="anchor" href="#_text"></a>TEXT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is example of normal text.
+You may write the text with <strong>Bold</strong> or <em>Italic</em>, font.
+You may also use <code>commands in back ticks</code> as per requirement.
+You may <mark>highlight</mark> the <mark>required portion</mark> of any text.</p>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">This is example of normal text.
+You may write the text with *Bold* or _Italic_, font.
+You may also use `commands in back ticks` as per requirement.
+You may #highlight# the #required portion# of any text.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Add the text with gap of a line for new paragraph.</p>
+</div>
+<div class="paragraph">
+<p>You may also use hard line breaks like this <br>
+for new line in single paragraph.</p>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">Add the text with gap of a line for new paragraph.
+
+You may also use hard line breaks like this +
+for new line in single paragraph.</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_links"><a class="anchor" href="#_links"></a>LINKS</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Example use of hyperlink to external website with <a href="https://docs.asciidoctor.org/asciidoc/latest/" target="_blank" rel="noopener">click here</a> option. The link opens in another tab or window of the browser.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">Example use of hyperlink to external website with https://docs.asciidoctor.org/asciidoc/latest/[click here,window=_blank] option.</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Example use of hyperlink to <a href="#demolab:section1.adoc" class="xref unresolved">the other page in the different section</a> within the same course. This link opens in the same browser window.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">Example use of hyperlink to xref:demolab:section1.adoc[the other page in the different section] within the same course. This link opens in the same browser window.</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Example use of hyperlink to <a href="#text.adoc" class="xref unresolved">the other page within the same section</a> of the course. This link opens in the same browser window.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">Example use of hyperlink to xref:text.adoc[the other page within the same section] of the course. This link opens in the same browser window.</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>FIXME: steps for link within the same page.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_lists_and_bullets"><a class="anchor" href="#_lists_and_bullets"></a>LISTS AND BULLETS</h2>
+<div class="sectionbody">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Numbered Step 1</p>
+</li>
+<li>
+<p>Numbered Step 2</p>
+</li>
+<li>
+<p>Numbered Step 3</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Sub Numbered Step 1</p>
+</li>
+<li>
+<p>Sub Numbered Step 2</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Numbered Step 4</p>
+</li>
+</ol>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">. Numbered Step 1
+. Numbered Step 2
+. Numbered Step 3
+  .. Sub Numbered Step 1
+  .. Sub Numbered Step 2
+. Numbered Step 4</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Bullet list item 1</p>
+</li>
+<li>
+<p>Bullet list item 2</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Sub Bullet list item 1</p>
+</li>
+<li>
+<p>Sub Bullet list item 2</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Bullet list item 3</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">* Bullet list item 1
+* Bullet list item 2
+  ** Sub Bullet list item 1
+  ** Sub Bullet list item 2
+* Bullet list item 3</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_code_blocks"><a class="anchor" href="#_code_blocks"></a>CODE BLOCKS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>FIXME: The syntax for the <code>source</code> option is not rendered correctly in the code block.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">Code block for command with copy button.</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">FIXME
+[source]</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Code block for command with copy button.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Sample Output</div>
+<div class="content">
+<pre>Code block to show sample output of the command.
+This does not have copy button.</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">FIXME
+.Sample Output</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Code block to show sample output of the command.
+This does not have copy button.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_callouts"><a class="anchor" href="#_callouts"></a>CALLOUTS</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Highlighted text for Note Callout
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">NOTE: Highlighted text for Note Callout</code></pre>
+</div>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+Highlighted text for Warning Callout
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">WARNING: Highlighted text for Warning Callout</code></pre>
+</div>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Highlighted text for Important Callout
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">IMPORTANT: Highlighted text for Important Callout</code></pre>
+</div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Highlighted text for Tip Callout
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">TIP: Highlighted text for Tip Callout</code></pre>
+</div>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+Highlighted text for Caution Callout
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">Syntax:</div>
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">CAUTION: Highlighted text for Caution Callout</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_media"><a class="anchor" href="#_media"></a>MEDIA</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>To render an image on the page, copy required image in <code>modules/chapterN/images</code> directory and reference it as below</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>image::sample-image.png[]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Example:</p>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="sample-image.png" alt="sample image">
+</div>
+</div>
+<div class="paragraph">
+<p>Use below syntax to use audio file on your content</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>audio::audio-file.wav[]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Example:</p>
+</div>
+<div class="audioblock">
+<div class="content">
+<audio src="_images/audio-file.wav" controls>
+Your browser does not support the audio tag.
+</audio>
+</div>
+</div>
+<div class="paragraph">
+<p>Use below syntax to render a video file on your content page.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>video::video-file.mp4[]</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Example:</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<video src="_images/video-file.mp4" controls>
+Your browser does not support the video tag.
+</video>
+</div>
+</div>
+<div class="paragraph">
+<p>FIXME: Add sample image, audio and video files.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tables"><a class="anchor" href="#_tables"></a>TABLES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Table without header row:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 1, row 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 2, row 1</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 1, row 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 2, row 2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 1, row 3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 2, row 3</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Table with header row:</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Column 1, header row</th>
+<th class="tableblock halign-left valign-top">Column 2, header row</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 1, row 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 2, row 2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 1, row 3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cell in column 2, row 3</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>FIXME: Use of tables needs better explanation and example.</p>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="glossary.html">Glossary</a></span>
+  <span class="next"><a href="faq.html">Frequently Asked Questions</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <img src="../../../_/img/rhl-logo-red.png" height="40px" alt="Red Hat"  href="https://redhat.com" >
+</footer><script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
