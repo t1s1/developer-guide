@@ -8,8 +8,6 @@ OpenTraining is a program that enables subject matter experts (SMEs) within the 
 
 *RedHat QuickCourse:*
 
-RedHat QuickCourse is an Asciidoctor documentation toolchain based on https://antora.org/[the Antora project,window=_blank]. RedHat employees can work with the training team to use the github repositories under this project on github.
-
 RedHat QuickCourse is an Asciidoctor documentation toolchain built on the https://antora.org/[Antora project,window=_blank]. RedHat employees can collaborate with the training team to utilize the https://github.com/orgs/RedHatQuickCourses/repositories[GitHub repositories under this project,window=_blank] for content development.
 
 *Know-It:* 
