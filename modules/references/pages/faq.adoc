@@ -15,7 +15,7 @@ The training you wish to contribute could originate from several sources:
 
 == What lab infrastructure is being used for hands-on based trainings?
 
-As of now we have two options for hands-on labs offerings, xref:references:glossary.adoc[RHDP and ROLE,window=_blank].
+As of now we have two options for hands-on labs offerings, xref:references:glossary.adoc#RHDP[RHDP] and xref:references:glossary.adoc#ROLE[ROLE] platform.
 
 == How do I decide which hands-on lab infrastructure I should prefer for my requirement?
 
