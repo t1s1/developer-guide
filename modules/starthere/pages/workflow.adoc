@@ -1,7 +1,7 @@
 = Get started
 
-. xref:references:glossary.adoc[Identify training type (know-it, how-to, break-fix)]
-. Identify lab template on the xref:references:glossary.adoc[RHDP or ROLE,window=_blank] platform for how-to and break-fix type content.
+. Identify training type: xref:references:glossary.adoc#Know-It[know-it], xref:references:glossary.adoc#How-To[how-to], xref:references:glossary.adoc#Break-Fix[break-fix]
+. Identify lab template on the xref:references:glossary.adoc#RHDP[RHDP] or xref:references:glossary.adoc#ROLE[ROLE] platform for how-to and break-fix type content.
 . Submit a https://docs.google.com/forms/d/e/1FAIpQLSepUaRiRdyA3PEzLP8w59reAsKRe19dL3ewpJGvJ7Gbggt-xg/viewform[Request form,window=_blank] for type *Open Training*
 . Training team will get in touch with you.
 
