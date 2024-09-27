@@ -1,7 +1,5 @@
 = ROLE (skip if using RHDP)
 
-FIXME: Instructions for using ROLE lab environment.
-
 NOTE: Use the ROLE lab environment only if the lab for any of the Red Hat certification course meets the requirements for your lab needs. While we can make minor adjustments, we won’t create entirely new lab environments in ROLE. If no existing labs fit your needs, consider using the xref:lab:rhdp.adoc[RHDP] portal to create a new lab environment.
 
 . Login to https://role.rhu.redhat.com/[ROLE,window=_blank] using your internal SSO credentials.
