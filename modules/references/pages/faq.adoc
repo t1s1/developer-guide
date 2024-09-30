@@ -13,6 +13,12 @@ The training you wish to contribute could originate from several sources:
 
 * Optionally, you could find a training topic in our backlog (FIXME link) that interests you and would like to contribute to. (FIXME: do we need this option?)
 
+== When should I initiate the Open Training request?
+
+You should engage with us as soon as you have a training requirement. Don not wait until your content or hands-on labs are fully ready. We have tools and processes that can significantly reduce the time and effort needed to develop and publish your training materials.
+
+**Engage early, engage often!**
+
 == What lab infrastructure is being used for hands-on based trainings?
 
 As of now we have two options for hands-on labs offerings, xref:references:glossary.adoc#RHDP[RHDP] and xref:references:glossary.adoc#ROLE[ROLE] platform.
