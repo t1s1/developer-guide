@@ -1,6 +1,6 @@
 = Quick course content format guide
 
-image::sample-image.png[]
+image::quick-course-structure.jpg[]
 
 See xref:references:asciidocqrg.adoc[Asciidoc quick reference guide] for help with drafting of your content.
 
