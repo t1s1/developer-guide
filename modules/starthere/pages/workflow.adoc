@@ -7,7 +7,7 @@
 
 **What will be the next steps?**
 
-* Develop training and lab
+* Develop xref:quickcourse:index.adoc[training] and xref:lab:index.adoc[lab]
 * Quality check and Publish
 
 

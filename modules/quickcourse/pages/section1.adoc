@@ -1,5 +1,33 @@
 = Use Devspace (skip if using local system)
+:toc:
 
-FIXME: Instructions for using Devspace development environment for content development.
+== Get started
 
-See xref:section3.adoc[Quick course content format guide] to know about formatting your content's layout
+Follow the instructions on xref:starthere:workflow.adoc[Get Started] page and wait for a response from the training team.
+
+== Draft content
+
+. Once you receive your GitHub content repository, go to your GitHub project page and, in the README section, click the `Developer Workspace` button.
++
+image::../click-devspace-button.png[]
++
+. On the next page, click the `Log in with OpenShift` button.
++
+image::../click-login-with-openshift.png[]
++
+. Use the credentials provided by the training team to log in.
++
+image::../ocp-devspace-login.png[]
++
+. When the VSCode interface loads, click `Yes, I trust the authors`.
++
+image::../trust-authors.png[]
+
+== Render content draft
+
+. step 1
+. step 2
+
+== Next step
+
+Refer to the xref:section3.adoc[Quick course content format guide] for details on formatting your content layout.
