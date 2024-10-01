@@ -169,7 +169,7 @@ CAUTION: Highlighted text for Caution Callout
 
 To render an image on the page, copy the required image in `modules/chapterN/images` directory and reference it as below.
 ----
-image::sample-image.png[]
+image::sample-image.jpg[]
 ----
 
 Example:
