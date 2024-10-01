@@ -120,39 +120,7 @@ Link to a page in a different section with xref:demolab:section1.adoc[the other 
 
 
 == CODE BLOCKS
-
-FIXME: The syntax for the `source` option is not rendered correctly in the code block.
-
-'[source]'
-'----'
-'Code block with copy button.'
-'----'
-
-.Syntax:
-[source]
-----
-FIXME
-[source]
-----
-Code block for command with copy button.
-----
-----
-
-.Sample Output
-----
-Code block to show sample output of the command.
-This does not have copy button.
-----
-
-[source]
-----
-FIXME
-.Sample Output
-----
-Code block to show sample output of the command.
-This does not have copy button.
-----
-----
+Refer to https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-blocks/[Asciidoc documentation,window=_blank].
 
 
 == CALLOUTS
