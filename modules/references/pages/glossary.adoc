@@ -1,40 +1,38 @@
 = Glossary
 
-Below is a brief description of a few key terminologies used in this developer guide.
+Here are some key terminologies used in this developer guide (not in alphabetical order):
 
-*OpenTraining:*
+*OpenTraining*
 
-OpenTraining is a program that enables subject matter experts (SMEs) within the organization to share their knowledge and expertise both internally and externally. SMEs use the tools and processes provided by the training team to create hands-on technical training content. After the SME develops the content, the training team performs testing and quality checks on the labs and materials, ensuring a smooth and rapid onboarding of the training.
+OpenTraining is a program that enables subject matter experts (SMEs) within the organization to share their knowledge and expertise both internally and externally. SMEs use the tools and processes provided by the training team to create training content. After the SME develops the content, the training team performs testing and quality checks on the labs and materials, and helps publish the content, ensuring a smooth and rapid onboarding of the training.
 
-*RedHat QuickCourse:*
+*Red Hat QuickCourse*
 
-RedHat QuickCourse is an Asciidoctor documentation toolchain built on the https://antora.org/[Antora project,window=_blank]. RedHat employees can collaborate with the training team to utilize the https://github.com/orgs/RedHatQuickCourses/repositories[GitHub repositories under this project,window=_blank] for content development.
+Red Hat QuickCourse is an Asciidoctor documentation toolchain built on the https://antora.org/[Antora project,window=_blank]. Red Hat employees can collaborate with the training team to utilize the https://github.com/orgs/Red HatQuickCourses/repositories[GitHub repositories under this project,window=_blank] for content development.
 
 [[Know-It]]
-*Know-It:* 
+*Know-It* 
 
 An informational, blog-style learning experience. This format delivers concise, easily digestible content that focuses on providing key insights and practical knowledge allowing learners to quickly get up to speed on specific topics.
 
 [[How-To]]
-*How-To:* 
+*How-To* 
+=======
 
-A hands-on, lab-based learning experience designed to guide learners through practical tasks step by step. This format emphasizes active participation, allowing learners to apply their knowledge in real-time scenarios. 
+A hands-on, lab-based learning experience designed to guide learners through practical tasks step-by-step. This format emphasizes active participation, allowing learners to apply their knowledge in real-time scenarios. 
 
 [[Break-Fix]]
-*Break-Fix:* 
+*Break-Fix* 
 
 A lab-based learning experience that challenges learners to solve real-world problems. Designed like a puzzle, this format presents learners with scenarios where something has gone wrong, and their task is to diagnose and fix the issue.
 
 [[RHDP]]
-*RHDP labs:*
+*RHDP labs*
 
 https://demo.redhat.com/[RHDP (Red Hat Demo Platform),window=_blank] is a lab environment offering provided by Red Hat for its associates and partners. The lab environments on this platform are built using the https://redhat-cop.github.io/agnosticd/[AgnosticD,window=_blank] project, an Ansible-based deployment tool for multiple cloud environments.
 
-For more information on using this lab for your training, please refer to the xref:lab:rhdp.adoc[Lab Infrastructure Guide for RHDP].
-
-
 [[ROLE]]
-*ROLE labs:*
+*ROLE labs*
 
 https://role.rhu.redhat.com/[ROLE (Red Hat Online Learning),window=_blank] is a lab environment offering provided by Red Hat for its associates and partners. This platform is primarily used for Red Hat certification courses and other shorter training programs offered by Red Hat.
 

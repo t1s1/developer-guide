@@ -201,7 +201,7 @@ CAUTION: Highlighted text for Caution Callout
 
 == MEDIA
 
-To render an image on the page, copy the image into the `modules/chapterN/images` directory and reference it by filename.
+To render an image on the page, copy the required image in `modules/chapterN/images` directory and reference it as below.
 ----
 image::sample-image.png[]
 ----
@@ -210,7 +210,7 @@ Example:
 
 image::sample-image.png[]
 
-Use below syntax to use audio file on your content
+Audio files also go into the `chapter/images` directory and are referenced as below.
 ----
 audio::audio-file.wav[]
 ----
@@ -219,7 +219,7 @@ Example:
 
 audio::audio-file.wav[]
 
-Use below syntax to render a video file on your content page.
+Video files also go into the `chapter/images` directory and are referenced as below.
 ----
 video::video-file.mp4[]
 ----
@@ -228,7 +228,6 @@ Example:
 
 video::video-file.mp4[]
 
-FIXME: Add sample image, audio and video files.
 
 == TABLES
 
