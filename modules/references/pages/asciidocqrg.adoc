@@ -79,10 +79,8 @@ Example use of hyperlink to xref:demolab:section1.adoc[the other page in the dif
 .Syntax:
 [source]
 ----
-Example use of hyperlink to xref:text.adoc[the other page within the same section] of the course. This link opens in the same browser window.
+Example use of hyperlink to xref:text.adoc[another page within the same section] of the course. This link opens in the same browser window.
 ----
-
-FIXME: steps for link within the same page.
 
 == LISTS AND BULLETS
 
@@ -258,5 +256,3 @@ Table with header row:
 |Cell in column 1, row 3
 |Cell in column 2, row 3
 |===
-
-FIXME: Use of tables needs better explanation and example.
