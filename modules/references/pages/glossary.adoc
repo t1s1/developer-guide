@@ -17,7 +17,6 @@ An informational, blog-style learning experience. This format delivers concise, 
 
 [[How-To]]
 *How-To* 
-=======
 
 A hands-on, lab-based learning experience designed to guide learners through practical tasks step-by-step. This format emphasizes active participation, allowing learners to apply their knowledge in real-time scenarios. 
 
