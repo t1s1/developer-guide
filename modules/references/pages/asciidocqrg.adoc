@@ -1,85 +1,85 @@
-= Asciidoc quick reference guide 
+= Asciidoc Quick Reference Guide 
 
 == HEADINGS
 
-Refer the the heading of this page for the example of the *top level heading*. This is referenced for navigation (previous/next) of the pages in rendered training content.
+Refer to the heading of this page (_Asciidoc Quick Reference Guide_) for an example of the *top level heading*. This is used for the navigation (previous/next) of pages in the rendered training content.
 
 .Syntax:
 [source]
 ----
-= This is top level heading
+= This is a top level heading
 ----
 
-== This is Second level heading
-
-.Syntax:
-[source]
-----
-== This is Second level heading
-----
-
-=== This is Third level heading
+== This is a second level heading
 
 .Syntax:
 [source]
 ----
-=== This is Third level heading
+== This is a second level heading
+----
+
+=== This is a third level heading
+
+.Syntax:
+[source]
+----
+=== This is a third level heading
 ----
 
 == TEXT
 
-This is example of normal text.
-You may write the text with *Bold* or _Italic_, font.
-You may also use `commands in back ticks` as per requirement.
-You may #highlight# the #required portion# of any text.
+This is example of normal text. +
+You can write the text in *Bold* or in _italics_. +
+You can use `commands`. +
+You can #highlight# text.
 
 .Syntax:
 [source]
 ----
 This is example of normal text.
-You may write the text with *Bold* or _Italic_, font.
-You may also use `commands in back ticks` as per requirement.
-You may #highlight# the #required portion# of any text.
+You can write the text in *Bold* or in _italics_.
+You can use `commands` (note the backticks).
+You can #highlight# text.
 ----
 
-Add the text with gap of a line for new paragraph.
-
-You may also use hard line breaks like this  +
-for new line in single paragraph.
-
-.Syntax:
-[source]
-----
-Add the text with gap of a line for new paragraph.
+For a new paragraph, skip a line.
 
 You may also use hard line breaks like this +
-for new line in single paragraph.
+for a new line within the paragraph.
+
+.Syntax:
+[source]
+----
+For a new paragraph, skip a line.
+
+You may also use hard line breaks like this +
+for a new line within the paragraph.
 ----
 
 == LINKS
 
-* Example use of hyperlink to external website with https://docs.asciidoctor.org/asciidoc/latest/[click here,window=_blank] option. The link opens in another tab or window of the browser.
+Link to an *external website* with the https://docs.asciidoctor.org/asciidoc/latest/[click here,window=_blank] option. (This will open in another tab or window of the browser.)
 
 .Syntax:
 [source]
 ----
-Example use of hyperlink to external website with https://docs.asciidoctor.org/asciidoc/latest/[click here,window=_blank] option.
+Link to an external website with https://docs.asciidoctor.org/asciidoc/latest/[click here,window=_blank].
 ----
 
-* Example use of hyperlink to xref:demolab:section1.adoc[the other page in the different section] within the same course. This link opens in the same browser window.
-
-.Syntax:
-[source]
-----
-Example use of hyperlink to xref:demolab:section1.adoc[the other page in the different section] within the same course. This link opens in the same browser window.
-----
-
-* Example use of hyperlink to xref:text.adoc[the other page within the same section] of the course. This link opens in the same browser window.
+Link to a different *page in the same section* with xref:text.adoc[the other page within the same section]. (This will open in the same browser window.)
 
 .Syntax:
 [source]
 ----
-Example use of hyperlink to xref:text.adoc[the other page within the same section] of the course. This link opens in the same browser window.
+Link to another page in the same section with xref:text.adoc[the other page within the same section].
+----
+
+Link to a *page in a different section* with xref:demolab:section1.adoc[the other page in the different section]. (This will open in the same browser window.)
+
+.Syntax:
+[source]
+----
+Link to a page in a different section with xref:demolab:section1.adoc[the other page in the different section].
 ----
 
 FIXME: steps for link within the same page.
@@ -127,7 +127,7 @@ FIXME: The syntax for the `source` option is not rendered correctly in the code 
 
 [source]
 ----
-Code block for command with copy button.
+Code block with copy button.
 ----
 
 .Syntax:
