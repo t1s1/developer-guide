@@ -79,11 +79,7 @@ Link to a *page in a different section* with xref:demolab:section1.adoc[the othe
 .Syntax:
 [source]
 ----
-<<<<<<< HEAD
-Example use of hyperlink to xref:text.adoc[another page within the same section] of the course. This link opens in the same browser window.
-=======
 Link to a page in a different section with xref:demolab:section1.adoc[the other page in the different section].
->>>>>>> 777255d794a07611a2f0e1df907e241769195100
 ----
 
 == LISTS AND BULLETS
@@ -127,10 +123,10 @@ Link to a page in a different section with xref:demolab:section1.adoc[the other 
 
 FIXME: The syntax for the `source` option is not rendered correctly in the code block.
 
-[source]
-----
-Code block with copy button.
-----
+'[source]'
+'----'
+'Code block with copy button.'
+'----'
 
 .Syntax:
 [source]
