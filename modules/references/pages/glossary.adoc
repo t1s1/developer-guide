@@ -10,26 +10,34 @@ OpenTraining is a program that enables subject matter experts (SMEs) within the 
 
 Red Hat QuickCourse is an Asciidoctor documentation toolchain built on the https://antora.org/[Antora project,window=_blank]. Red Hat employees can collaborate with the training team to utilize the https://github.com/orgs/Red HatQuickCourses/repositories[GitHub repositories under this project,window=_blank] for content development.
 
+[[Know-It]]
 *Know-It* 
 
 An informational, blog-style learning experience. This format delivers concise, easily digestible content that focuses on providing key insights and practical knowledge allowing learners to quickly get up to speed on specific topics.
 
+[[How-To]]
 *How-To* 
+=======
 
 A hands-on, lab-based learning experience designed to guide learners through practical tasks step-by-step. This format emphasizes active participation, allowing learners to apply their knowledge in real-time scenarios. 
 
+[[Break-Fix]]
 *Break-Fix* 
 
 A lab-based learning experience that challenges learners to solve real-world problems. Designed like a puzzle, this format presents learners with scenarios where something has gone wrong, and their task is to diagnose and fix the issue.
 
+[[RHDP]]
 *RHDP labs*
 
 https://demo.redhat.com/[RHDP (Red Hat Demo Platform),window=_blank] is a lab environment offering provided by Red Hat for its associates and partners. The lab environments on this platform are built using the https://redhat-cop.github.io/agnosticd/[AgnosticD,window=_blank] project, an Ansible-based deployment tool for multiple cloud environments.
 
+[[ROLE]]
 *ROLE labs*
 
 https://role.rhu.redhat.com/[ROLE (Red Hat Online Learning),window=_blank] is a lab environment offering provided by Red Hat for its associates and partners. This platform is primarily used for Red Hat certification courses and other shorter training programs offered by Red Hat.
 
+For more information on using this lab for your training, please refer to the xref:lab:role.adoc[Lab Infrastructure Guide for ROLE].
 
-[.text-center]
-Click xref:starthere:workflow.adoc[here] to get started
+___
+image::RH-Play-Icon.png[start,link=https://redhatquickcourses.github.io/developer-guide/developer-guide/1/starthere/workflow.html,align=left,role=left]
+xref:starthere:workflow.adoc[Get Started]

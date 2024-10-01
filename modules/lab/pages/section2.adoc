@@ -1,3 +1,0 @@
-= ROLE (skip if using RHDP)
-
-FIXME: Instructions for using ROLE lab environment.

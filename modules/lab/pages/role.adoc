@@ -1,0 +1,24 @@
+= ROLE (skip if using RHDP)
+
+NOTE: Use the ROLE lab environment only if the lab for any of the Red Hat certification course meets the requirements for your lab needs. While we can make minor adjustments, we won’t create entirely new lab environments in ROLE. If no existing labs fit your needs, consider using the xref:lab:rhdp.adoc[RHDP] portal to create a new lab environment.
+
+. Login to https://role.rhu.redhat.com/[ROLE,window=_blank] using your internal SSO credentials.
+
+. Identify a suitable lab environment for your course.
+
+. Launch and inspect the lab environment.
+
+. Note any required changes to fit your needs, such as:
+  ** Adjustments to VM resources
+  ** Extra storage requirements for specific VMs
+  ** Changes to any VM that can be easily implemented using a startup script
+  ** Additional VMs
+  
+. The ROLE lab may not be suitable if you require:
+  ** Product version changes not available on the ROLE platform
+  ** Changes in the cluster node count for RHOSP, RHOCP deployments
+  ** Extensive lab customizations
+
+For assistance, submit a request via https://docs.google.com/forms/d/e/1FAIpQLSepUaRiRdyA3PEzLP8w59reAsKRe19dL3ewpJGvJ7Gbggt-xg/viewform[this,window=_blank] form (select Open Training).
+
+Refer to the xref:references:faq.adoc[FAQ] for more details.

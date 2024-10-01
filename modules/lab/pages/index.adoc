@@ -1,5 +1,5 @@
 = Lab infrastructure guide
 
-This section contains instructions on use of hands-on lab infrastructure for the training. You may either use xref:section1.adoc[RHDP] or xref:section2.adoc[ROLE] for your lab environment.
+This section contains instructions on use of hands-on lab infrastructure for the training. You may either use xref:rhdp.adoc[RHDP] or xref:role.adoc[ROLE] for your lab environment.
 
 See xref:references:faq.adoc[faq] for additional guidance.
