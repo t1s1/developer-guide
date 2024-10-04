@@ -30,6 +30,8 @@ A lab-based learning experience that challenges learners to solve real-world pro
 
 https://demo.redhat.com/[RHDP (Red Hat Demo Platform),window=_blank] is a lab environment offering provided by Red Hat for its associates and partners. The lab environments on this platform are built using the https://redhat-cop.github.io/agnosticd/[AgnosticD,window=_blank] project, an Ansible-based deployment tool for multiple cloud environments.
 
+For more information on using this lab for your training, please refer to the xref:lab:rhdp.adoc[Lab Infrastructure Guide for RHDP].
+
 [[ROLE]]
 *ROLE labs*
 

@@ -167,32 +167,32 @@ CAUTION: Highlighted text for Caution Callout
 
 == MEDIA
 
-To render an image on the page, copy the required image in `modules/chapterN/images` directory and reference it as below.
+To render an image on the page, copy the required image into the `modules/chapterN/images` directory and reference it as below.
 ----
-image::sample-image.jpg[]
+image::../sample-image.jpg[]
 ----
 
 Example:
 
-image::sample-image.png[]
+image::../sample-image.png[]
 
 Audio files also go into the `chapter/images` directory and are referenced as below.
 ----
-audio::audio-file.wav[]
+audio::../audio-file.wav[]
 ----
 
 Example: 
 
-audio::audio-file.wav[]
+audio::../audio-file.wav[]
 
 Video files also go into the `chapter/images` directory and are referenced as below.
 ----
-video::video-file.mp4[]
+video::../video-file.mp4[]
 ----
 
 Example:
 
-video::video-file.mp4[]
+video::../video-file.mp4[]
 
 
 == TABLES
